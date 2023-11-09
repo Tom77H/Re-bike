@@ -1,37 +1,224 @@
+
 @font-face {
     font-family: "Signika Negative", sans-serif;
     src: url(../fonts/Signika_Negative/static/SignikaNegative-Light.ttf);
 }
-nav{
-    background-color: rgb(0, 255, 55);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-body{
-    margin: 0px;
-}
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     overflow: hidden;
-    background-color: rgb(0, 255, 55);
-    display: flex;
-    justify-content: space-around;
-    top: 0;
+    background-color: #002456;
+    position: block;
+    margin-top: -5px;
     width: 100%;
-}
-
-li {
+    font-family: "Signika Negative", sans-serif;
+  }
+  
+  li {
     float: left;
-}
-
-li a {
+  }
+  
+  li a {
     display: block;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+body{
+    margin: 0px;
 }
 
-.tekst1{
+.titel{
     font-family: "Signika Negative", sans-serif;
+    position:absolute;
+    margin-top: -94px;
+    color: #fff;
+    background-color: #424242;
+    opacity: 0.9;
+    height: 70px;
+    width: 97%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+.active{
+    background-color: #001533;
+}
+.hoofdfoto{
+    height: 100%;
+    width: 100%;
+}
+.productknop{
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.represknop{
+    padding-left: 24px;
+}
+.producticon{
+    padding-top: 40px;
+    padding-left: 160px;
+}
+.represicon{
+    padding-top: 40px;
+    padding-left: 160px;
+}
+.hoofdproductentitel{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 32px;
+    padding-left: 115px;
+}
+.hoofdreprestitel{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 32px;
+    padding-left: 115px;
+}
+.hoofdproductentekst{
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+}
+.hoofdreprestekst{
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+}
+.footer{
+    height: 80%;
+}
+.overfoto{
+    height: 100%;
+    width: 100%;
+}
+.producttitel{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 32px;
+    position: absolute;
+    height: 55px;
+    width: 78.7%;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+.producttitel1{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 32px;
+    position: absolute;
+    width: 78.7%;
+    padding-top: 80px;
+    padding-left: 35px;
+}
+.product1{
+    height: 35%;
+    width: 35%; 
+    padding-top: 125px;
+    padding-left: 15px;
+}
+.product2{
+    height: 35%;
+    width: 35%; 
+    padding-top: 120px;
+    padding-left: 225px;
+}
+.product3{
+    height: 35%;
+    width: 35%; 
+    padding-top: 200px;
+    padding-left: 15px;
+}
+.product4{
+    height: 35%;
+    width: 35%; 
+    padding-top: 120px;
+    padding-left: 225px;
+}
+.product5{
+    height: 35%;
+    width: 35%; 
+    padding-top: 150px;
+    padding-left: 15px;
+}
+.ptekst1{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    position:absolute;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.ptekst2{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    position:absolute;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 130px;
+}
+.ptekst3{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    position:absolute;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+.ptekst4{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    position:absolute;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 150px;
+}
+.ptekst5{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    position:absolute;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.s1{
+    height: 100%;
+    width: 100%; 
+}
+.s2{
+    height: 100%;
+    width: 100%; 
+}
+.s3{
+    height: 100%;
+    width: 100%; 
+}
+.s4{
+    height: 100%;
+    width: 100%; 
+}
+
+.overtitel{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 32px;
+    position:absolute;
+    margin-top: -79px;
+    color: #fff;
+    background-color: #424242;
+    opacity: 0.9;
+    height: 55px;
+    width: 78.7%;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.overtekst{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.footerp{
+    height: 80%;
+    padding-top: 150px;
 }
